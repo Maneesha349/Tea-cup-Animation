@@ -1,0 +1,120 @@
+*{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+        }
+        .tea-cup{
+            height: 100vh;
+            width: 100%;
+            border: solid;
+            object-fit: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .tea-cup{
+            flex-direction: column;
+            background-image:linear-gradient(black,rgb(57, 9, 9)) ;
+        }
+        img[alt="cup"]{
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            bottom: 180px; 
+        }
+         img[alt="cup"]:hover{
+            transition-property: transform;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transform: scale(1.1);
+            filter: drop-shadow(10px 10px 10px rgba(139, 136, 136, 0.644)) opacity(98%);            
+         }
+        .bubbles{
+             position: relative;
+             height: 300px;
+             width: 300px;
+        }
+        .bubble{
+            border-radius: 50%;
+             background-image: radial-gradient(rgba(255, 243, 243, 0.375),rgba(51, 51, 51, 0.293));
+             animation: vapour-bubbles 10s infinite;
+        }
+        @keyframes vapour-bubbles {
+            to{transform: translateY(-250px);}
+        }
+        .bubble-1{
+            height: 50px;
+            width: 50px;
+           position: absolute;
+           bottom: 50px;
+           left: 70px;
+           animation-duration: 7s;
+           animation-timing-function: linear;
+           animation-delay: 1ms;
+        }
+         .bubble-2{
+             height: 60px;
+            width: 60px;
+           position: absolute;
+       bottom: 50px;
+           right: 90px;
+           animation-duration:4s;
+           animation-timing-function: ease-out;
+            animation-delay: 2ms;
+        }
+          .bubble-3{
+             height: 70px;
+            width: 70px;
+           position: absolute;
+          bottom: 50px;
+           right: 110px;
+           animation-duration: 6s;
+           animation-timing-function: ease-in-out;
+            animation-delay: 10ms;
+        }
+           .bubble-4{
+             height: 40px;
+            width: 40px;
+           position: absolute;
+          bottom: 50px;
+           right: 100px;
+           animation-duration: 10s;
+           animation-timing-function: ease-out;
+            animation-delay: 15s;
+        }
+           .bubble-5{
+             height: 80px;
+            width: 80px;
+           position: absolute;
+           bottom: 50px;
+           right: 130px;
+           animation-duration: 4s;
+           animation-timing-function: ease-in-out;
+            animation-delay: 8ms;
+        }
+        
+           .bubble-6{
+             height: 30px;
+            width: 30px;
+           position: absolute;
+           bottom: 50px;
+           right: 120px;
+           animation-duration: 12s;
+           animation-timing-function: ease-in-out;
+            animation-delay: 18ms;
+        }
+           .bubble-7{
+             height: 65px;
+            width: 65px;
+           position: absolute;
+           bottom: 50px;
+           right: 120px;
+           animation-duration: 10s;
+           animation-timing-function: ease-in-out;
+            animation-delay: 10ms;
+        }
