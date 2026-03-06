@@ -22,7 +22,7 @@ A simple HTML/CSS animation of a tea cup with rising bubbles.
 1. Clone or download this repository:
    ```bash
 🌐 Live Demo
-Check it out here 👉 []
+Check it out here 👉 [https://maneesha349.github.io/Tea-cup-Animation/]
 
 📜 License
 This project is for educational and personal use.
